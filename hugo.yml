@@ -1,4 +1,48 @@
-baseURL: https://example.org/
+baseURL: https://bhanuprakash012.github.io/
 languageCode: en-us
-title: My New Hugo Site
+title: Bhanuprakash
 theme: PaperMod
+
+
+enableEmoji: true
+author: "Bhanu Prakash"
+
+mainSections:
+  - blog
+  - archives
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Blogs
+      pageRef: /blog
+      weight: 20
+    - name: Archives
+      url: /archives
+      weight: 30
+
+params:
+  profileMode:
+    enabled: true
+    title: "Bhanu Prakash" # optional default will be site title
+    subtitle: "Personal Website"
+    author: "Bhanu Prakash"
+    imageUrl: "/images/profileImg.jpg" # optional
+    imageTitle: "Profile Image" # optional
+    imageWidth: 400 # custom size
+    imageHeight: 300 # custom size
+    buttons:
+      - name: Blogs
+        url: "/blog"
+
+  socialIcons:
+    - name: "Linkedin"
+      url: "https://slashdot-iiserk.github.io"
+    - name: "YouTube"
+      url: "https://www.youtube.com/@piyushkrsingh"
+    - name: "Github"
+      url: "https://github.com/iamPiyushKrSingh"
+    - name: "Instagram"
+      url: "<>"
